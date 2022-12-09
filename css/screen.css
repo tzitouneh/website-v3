@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+/* (target ÷ context = result) */
+
+/* ===== BASE STYLES ===== */
+html {
+  background-color: #cfcfc4;
+  color: #333;
+  font-family: Helvetica, Arial, Georgia, "Time New Roman", Times, Menlo, serif;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+  padding: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+}
+h1 {
+  font-size: 3.1612777778em; /* 56.903 / 18 = 3.1612777778 */
+  line-height: 1.0368521871em; /* 59/ 56.903 = 1.0368521871 */
+}
+h2 {
+  font-size: 2.5em; /* 45 / 18 = 2.5 */
+  line-height: 1.1111111111em; /* 50 / 45 = 1.1111111111 */
+}
+h3 {
+  font-size: 1.778em; /* 32.004 / 18 = 1.778 */
+  line-height: 1.1248593926em; /* 36 / 32.004 = 1.1248593926 */
+  border-bottom: solid;
+  border-width: 0.03124609424em; /* 1 / 32.004 = 0.03124609424 */
+  border-color: #111;
+}
+h4 {
+  font-size: 1.3888888889em; /* 25 / 18 = 1.3888888889 */
+  line-height: 1.2em; /* 30 / 25 = 1.2 */
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #AAA;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0.05555555556em; /* 1 / 18 = 0.05555555556 */
+}
+article {
+  padding-bottom: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+}
+cite {
+  font-style: italic;
+}
+figure {
+  padding: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+  padding-bottom: 0;
+}
+p,
+nav,
+ul {
+  padding: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+}
+nav ul {
+  padding: 0;
+}
+ul ul {
+  padding-bottom: 0;
+}
+
+/* ===== LAYOUT STYLES ===== */
+
+/* ===== MODULAR STYLES ===== */
+.college-extra li,
+.exp-skills li {
+  line-height: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+  list-style: disc;
+  margin-left: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+}
+.college-info li,
+.exp-info li {
+  font-style: italic;
+}
+#citation {
+  font-size: 0.8333333333em; /* 15 / 18 = 0.8333333333 */
+}
+#contact a {
+  background-color: #444;
+  border-style: solid;
+  border-color: #EEE;
+  border-width: 0.05555555556em; /* 1 / 18 = 0.05555555556 */
+  color: #EEE;
+  display: block;
+  font-family: Menlo, Helvetica, Arial, serif;
+  line-height: 0;
+  padding: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+  text-decoration: none;
+}
+#footer {
+  font-size: 0.8333333333em; /* 15 / 18 = 0.8333333333 */
+}
+#header {
+  background-color: #82826F;
+  color: inherit;
+  margin: -1.3333333333em -1.3333333333em 1.3333333333em -1.3333333333em;
+  /* 24 / 18 = 1.3333333333 */
+  padding: 1.3333333333em 1.3333333333em 0 1.3333333333em;
+  /* 24 / 18 = 1.3333333333 */
+  text-align: center;
+}
+#navigation {
+  font-family: Menlo, Helvetica, Arial, serif;
+}
+#navigation a {
+  background-color: #444;
+  border-style: solid;
+  border-color: #EEE;
+  border-width: 0.05555555556em; /* 1 / 18 = 0.05555555556 */
+  color: #EEE;
+  display: block;
+  line-height: 0;
+  padding: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+  text-decoration: none;
+}
+#navigation a:active,
+#navigation a:focus,
+#navigation a:hover,
+#home #nav-home,
+#resume #nav-resume,
+#about #nav-about {
+  background-color: #777;
+}
+#navigation li {
+  margin-bottom: 0.3125em; /* 5 / 16 = 0.3125 */
+}
+#contact a:active,
+#contact a:focus,
+#contact a:hover {
+  background-color: #777;
+}
+#summary li,
+#personal li {
+  line-height: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+  list-style: disc;
+  margin-left: 1.3333333333em; /* 24 / 18 = 1.3333333333 */
+}
+
+/* ===== STATE STYLES ===== */
+
+/* Context is ALWAYS 16px for Media Queries */
+
+/* 444 / 16 = 27.75 */
+@media screen and (min-width: 27.75em) {
+  #contact li {
+    flex: 1 0 max-content;
+    max-width: 16.6666666667em; /* 300 / 18 = 16.6666666667 */
+    text-align: center;
+  }
+}
+
+/* 660 / 16 = 41.25 */
+@media screen and (min-width: 41.25em) {
+  #contact ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* 1048 /16 = 65.5 */
+@media screen and (min-width: 65.5em) {
+  #contact {
+    margin-top: -1.3333333333em; /* 24 / 18 = 1.3333333333 */
+  }
+  #info {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* 444 / 16 = 27.75 */
+@media screen and (min-width: 27.75em) {
+  #navigation ul {
+    display: flex;
+    justify-content: center;
+  }
+  #navigation li {
+    flex: 1 0 max-content;
+    max-width: 8.3333333333em; /* 150 / 18 = 8.3333333333 */
+    text-align: center;
+  }
+}
